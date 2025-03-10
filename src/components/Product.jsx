@@ -29,9 +29,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic1}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Spare Part 1"
+                className="w-full object-cover "
               />
               {/* <h4 className="mt-2 text-xl text-black font-bold">Spare Part A</h4> */}
               <p className="text-gray-950">
@@ -41,9 +40,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic11}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Spare Part 2"
+                className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">
                 Spare Part B
@@ -66,9 +64,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic3}
-               loading="lazy"
-               alt="MF Catalogue"
-                className="w-full h-full object-cover"
+                alt="Oil-Free Compressor 1"
+                className="w-full object-cover"
               />
               <h4 className="mt-2 text-xl text-black font-bold">Model XYZ-1</h4>
               <p className="text-gray-950">
@@ -79,9 +76,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic4}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Oil-Free Compressor 2"
+                className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">Model XYZ-2</h4>
               <p className="text-gray-950">
@@ -99,9 +95,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic5}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Belt Compressor 1"
+                className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">Model ABC-1</h4>
               <p className="text-gray-950">
@@ -111,9 +106,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic6}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Belt Compressor 2"
+                className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
               <p className="text-gray-950">
@@ -123,9 +117,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic7}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Belt Compressor 2"
+                className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
               <p className="text-gray-950">
@@ -135,9 +128,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic8}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Belt Compressor 2"
+                className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
               <p className="text-gray-950">
@@ -147,9 +139,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic9}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Belt Compressor 2"
+                className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
               <p className="text-gray-950">
@@ -159,9 +150,8 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic10}
-                loading="lazy"
-                alt="MF Catalogue"
-                className="w-full h-full object-cover "
+                alt="Belt Compressor 2"
+                className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
               <p className="text-gray-950">
