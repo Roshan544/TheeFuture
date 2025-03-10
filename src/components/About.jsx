@@ -8,13 +8,13 @@ const About = () => {
       <section className="py-12 px-6 md:px-12 lg:px-20">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">About Us</h2>
-        <p className="text-lg leading-relaxed">
+        <p className="text-sm md:text-lg leading-relaxed">
           Founded in 2016, <span className="font-semibold">MF Enterprises</span> is a trusted supplier of
           high-quality power tools, spares, and accessories. We are proud to be authorized distributors
           for leading brands such as <span className="font-semibold">Doncheng, Yuri, and Xtra Power Tools</span>,
           ensuring top-tier products for our customers.
         </p>
-        <p className="text-lg leading-relaxed mt-4">
+        <p className="text-sm md:text-lg leading-relaxed mt-4">
           In addition, we offer <span className="font-semibold">The E Future Air Compressors</span>, known for their
           excellence, precision, and unmatched performance in their segment. With a commitment to
           quality and customer satisfaction, MF Enterprises continues to be a reliable name in the industry.
@@ -45,7 +45,7 @@ const About = () => {
 
         {/* Our Experience & Achievements */}
         <h3 className="text-2xl font-bold mt-10">Our Experience & Achievements</h3>
-        <p className="text-lg leading-relaxed mt-4">
+        <p className="text-sm md:text-lg leading-relaxed mt-4">
           With years of industry experience, MF Enterprises has successfully served thousands of clients, supplying
           innovative and reliable tools. Our track record includes partnerships with renowned brands and continuous
           growth in the industry.
@@ -66,7 +66,7 @@ const About = () => {
           </div> */}
           <div className="bg-[#F38522] p-6 rounded-lg shadow-md">
             <h3 className="text-3xl font-bold text-white">20+</h3>
-            <p className="text-white">Years of Experience</p>
+            <p className="text-white justify-center items-center flex">Years of Experience</p>
           </div>
         </div>
       </div>
