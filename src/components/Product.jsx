@@ -21,7 +21,7 @@ const Product = () => {
           Our Products
         </h2>
 
-        <h3 className="text-2xl font-semibold mb-4" name="Powerful Airflow & Pressure Washer">
+        <h3 className="text-xl md:text-2xl font-semibold mb-4" name="Powerful Airflow & Pressure Washer">
           Powerful Airflow & Pressure Washer
         </h3>
         <div className="mb-15 md:mt-15" >
@@ -29,32 +29,32 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic1}
-                alt="Spare Part 1"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
-              {/* <h4 className="mt-2 text-xl text-black font-bold">Spare Part A</h4> */}
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">BLOWER</h4>
+              {/* <p className="text-gray-950">
                 High-quality replacement part ensuring efficiency.
-              </p>
+              </p> */}
             </div>
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic11}
-                alt="Spare Part 2"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
               <h4 className="mt-2 text-xl text-black font-bold">
-                Spare Part B
+                PRESSURE WASHER
               </h4>
-              <p className="text-gray-950">
+              {/* <p className="text-gray-950">
                 Durable and compatible with multiple models.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
 
         <h3
-          className="text-2xl font-semibold mb-4"
+          className="text-xl md:text-2xl font-semibold mb-4"
           name="Belt Type Air Compressors"
         >
           Belt Type Air Compressors
@@ -64,30 +64,30 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic3}
-                alt="Oil-Free Compressor 1"
+                alt="Air Compressors"
                 className="w-full object-cover"
               />
-              <h4 className="mt-2 text-xl text-black font-bold">Model XYZ-1</h4>
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">FTBT-90L</h4>
+              {/* <p className="text-gray-950">
                 High efficiency, no oil contamination, suitable for medical and
                 food industries.
-              </p>
+              </p> */}
             </div>
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic4}
-                alt="Oil-Free Compressor 2"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
-              <h4 className="mt-2 text-xl text-black font-bold">Model XYZ-2</h4>
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">FTBT-120L</h4>
+              {/* <p className="text-gray-950">
                 Low maintenance, energy-efficient, and eco-friendly.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
 
-        <h3 className="text-2xl font-semibold mb-4" name="Oil-Free Air Compressors">
+        <h3 className="text-xl md:text-2xl font-semibold mb-4" name="Oil-Free Air Compressors">
           Oil-Free Air Compressors
         </h3>
         <div className="mb-12 md:mt-15" >
@@ -95,73 +95,73 @@ const Product = () => {
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic5}
-                alt="Belt Compressor 1"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
-              <h4 className="mt-2 text-xl text-black font-bold">Model ABC-1</h4>
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">FT-04-10</h4>
+              {/* <p className="text-gray-950">
                 Durable, high performance, ideal for industrial use.
-              </p>
+              </p> */}
             </div>
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic6}
-                alt="Belt Compressor 2"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
-              <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">FT-04-30</h4>
+              {/* <p className="text-gray-950">
                 Energy-efficient, reliable, and powerful.
-              </p>
+              </p> */}
             </div>
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic7}
-                alt="Belt Compressor 2"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
-              <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">FT-AC04-40</h4>
+              {/* <p className="text-gray-950">
                 Energy-efficient, reliable, and powerful.
-              </p>
+              </p> */}
             </div>
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic8}
-                alt="Belt Compressor 2"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
-              <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">FT04-100-2</h4>
+              {/* <p className="text-gray-950">
                 Energy-efficient, reliable, and powerful.
-              </p>
+              </p> */}
             </div>
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic9}
-                alt="Belt Compressor 2"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
-              <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">FT-AC-30</h4>
+              {/* <p className="text-gray-950">
                 Energy-efficient, reliable, and powerful.
-              </p>
+              </p> */}
             </div>
             <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
               <img
                 src={pic10}
-                alt="Belt Compressor 2"
+                alt="Air Compressors"
                 className="w-full object-cover "
               />
-              <h4 className="mt-2 text-xl text-black font-bold">Model ABC-2</h4>
-              <p className="text-gray-950">
+              <h4 className="mt-2 text-xl text-black font-bold">FT-AC-50</h4>
+              {/* <p className="text-gray-950">
                 Energy-efficient, reliable, and powerful.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
 
-        <h3 className="text-2xl font-semibold mb-4" name="Spare Parts of Air Compressors">
+        <h3 className="text-xl md:text-2xl font-semibold mb-4" name="Spare Parts of Air Compressors">
           Spare Parts of Air Compressors
         </h3>
         <div className="mb-12 md:mt-15" >
