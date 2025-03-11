@@ -173,7 +173,7 @@ const NavBar = () => {
       </div>
 
       {!menu && (
-        <div className="ul md:hidden flex bg-black text-white py-[10%] h-full mt-8 fixed top-7 left-0 z-10 w-full">
+        <div className="ul md:hidden flex bg-black text-white py-[10%] h-full mt-8 fixed top-7 left-0 z-10 w-90">
           <ul className="flex flex-col gap-4 left-0 px-8 w-full">
             <li className="hover:cursor-pointer hover:scale-105 hover:text-[#F38522] text-lg">
               <Link
@@ -185,7 +185,7 @@ const NavBar = () => {
                 activeClass="active"
                 as="a"
                 href="/#Home"
-              >
+                >
                 Home
               </Link>
             </li>
@@ -199,13 +199,15 @@ const NavBar = () => {
                 activeClass="active"
                 as="a"
                 href="/#About"
-              >
+                >
                 About
               </Link>
             </li>
             <li
               className="hover:cursor-pointer hover:scale-105 hover:text-[#F38522] text-lg items-end right-0"
               onClick={() => setShowDropdown(!showDropdown)}
+              // onClick={() => { setShowDropdown(!showDropdown); setmenu(!menu); }}
+
             >
               Products
               {showDropdown && (
@@ -218,7 +220,7 @@ const NavBar = () => {
                         offset={-120}
                         as="a"
                         href="/#Belt Driven"
-                        onClick={() => setShowDropdown(false)}
+                        onClick={() => {setmenu(!menu); setShowDropdown(!showDropdown)}}
                       >
                         Belt Driven
                       </Link>
@@ -231,7 +233,7 @@ const NavBar = () => {
                         offset={-120}
                         as="a"
                         href="/#Oil Free"
-                        onClick={() => setShowDropdown(false)}
+                        onClick={() => {setmenu(!menu); setShowDropdown(!showDropdown)}}
                       >
                         Oil Free
                       </Link>
@@ -244,7 +246,7 @@ const NavBar = () => {
                         offset={-120}
                         as="a"
                         href="/#Air Blower & Pressure Washer"
-                        onClick={() => setShowDropdown(false)}
+                        onClick={() => {setmenu(!menu); setShowDropdown(!showDropdown)}}
                       >
                         Air Blower & Pressure Washer
                       </Link>
@@ -257,7 +259,7 @@ const NavBar = () => {
                         offset={-120}
                         as="a"
                         href="/#Spares for Compressors"
-                        onClick={() => setShowDropdown(false)}
+                        onClick={() => {setmenu(!menu); setShowDropdown(!showDropdown)}}
                       >
                         Spares for Compressors
                       </Link>
