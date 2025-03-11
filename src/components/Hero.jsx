@@ -23,11 +23,11 @@ const Hero = () => {
       name="Hero"
       className="mt-17 md:mt-17 md:flex md:flex-row flex flex-col-reverse h-[90vh] items-center md:ml-10 md:mr-10 bg-black"
     >
-      <div className="left md:w-1/2 md:mr-15 md:ml-15 mt-5 mb-2 px-10 xl:px-18 w-full h-full flex flex-col items-center md:items-start justify-center text-center md:text-left p-5 md:p-10">
-        <h1 className="text-2xl md:text-2xl xl:text-4xl font-bold text-white">
+      <div className="left md:w-1/2 md:mr-15 md:ml-15 mt-5 mb-2 px-10 xl:px-15 w-full h-full flex flex-col items-center md:items-start justify-center text-center md:text-left p-5 md:p-10">
+        <h1 className="text-2xl md:text-2xl xl:text-6xl font-bold text-white">
           Powerful & Reliable
         </h1>
-        <h2 className="text-xl md:text-2xl xl:text-4xl font-semibold text-white mt-2">
+        <h2 className="text-xl md:text-2xl xl:text-6xl font-semibold text-white mt-2">
           Air Compressors
         </h2>
         <p className="text-sm md:text-sm xl:text-xl text-white mt-2">
@@ -79,7 +79,7 @@ const Hero = () => {
           <SwiperSlide>
             <img className="rounded-xl md:w-[35vw] w-full bg-white p-2" rel="preload" loading="lazy" src={pic5} alt="Hero 3" />
           </SwiperSlide>
-          {/* <SwiperSlide>
+          <SwiperSlide>
             <img className="rounded-xl md:w-[35vw] w-[70vw] bg-white p-2" rel="preload" loading="lazy" src={pic6} alt="Hero 3" />
           </SwiperSlide>
           <SwiperSlide>
@@ -93,7 +93,7 @@ const Hero = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img className="rounded-xl md:w-[35vw] w-[70vw] bg-white p-2" rel="preload" loading="lazy" src={pic10} alt="Hero 3" />
-          </SwiperSlide> */}
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
