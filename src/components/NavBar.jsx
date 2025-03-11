@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
-import logo from "../../public/Logo.webp";
+import logo from "../../public/Logo.png";
 
 const NavBar = () => {
   const [menu, setmenu] = useState(true);
