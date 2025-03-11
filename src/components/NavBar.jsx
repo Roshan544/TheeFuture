@@ -23,7 +23,12 @@ const NavBar = () => {
         >
           <div className="flex flex-col justify-center items-center cursor-pointer">
             {/* <h2 className="font-serif md:text-2xl text-xl text-[#F38522]">The Future</h2> */}
-            <img className="h-15 md:h-20" src={logo} alt="Logo" loading="lazy"/>
+            <img
+              className="h-15 md:h-20"
+              src={logo}
+              alt="Logo"
+              loading="lazy"
+            />
             <p className="text-sm font-extralight text-gray-200">
               “The Future of Air Compressors”
             </p>
@@ -89,54 +94,54 @@ const NavBar = () => {
                   <ul className="absolute top-full left-0 bg-[#F38522] text-white py-0 rounded shadow-lg w-50">
                     <li className="px-4 py-1 hover:bg-gray-800">
                       <Link
-                        to="Products"
-                        smooth={true}
-                        duration={500}
-                        offset={-0}
-                        as="a"
-                        href="/#Powerful Airflow & Pressure Washer"
-                        onClick={() => setShowDropdown(false)}
-                      >
-                        Powerful Airflow & Pressure Washer
-                      </Link>
-                    </li>
-                    <li className="px-4 py-1 hover:bg-gray-800">
-                      <Link
-                        to="Belt Type Air Compressors"
-                        smooth={true}
-                        duration={500}
-                        offset={-100}
-                        as="a"
-                        href="/#Belt Type Air Compressors"
-                        onClick={() => setShowDropdown(false)}
-                      >
-                        Belt Type Air Compressors
-                      </Link>
-                    </li>
-                    <li className="px-4 py-1 hover:bg-gray-800">
-                      <Link
-                        to="Oil-Free Air Compressors"
+                        to="Belt Driven"
                         smooth={true}
                         duration={500}
                         offset={-120}
                         as="a"
-                        href="/#Oil-Free Air Compressors"
+                        href="/#Belt Driven"
                         onClick={() => setShowDropdown(false)}
                       >
-                        Oil-Free Air Compressors
+                        Belt Driven
                       </Link>
                     </li>
                     <li className="px-4 py-1 hover:bg-gray-800">
                       <Link
-                        to="Spare Parts of Air Compressors"
+                        to="Oil Free"
                         smooth={true}
                         duration={500}
-                        offset={-100}
+                        offset={-120}
                         as="a"
-                        href="/#Spare Parts of Air Compressors"
+                        href="/#Oil Free"
                         onClick={() => setShowDropdown(false)}
                       >
-                        Spare Parts of Air Compressors
+                        Oil Free
+                      </Link>
+                    </li>
+                    <li className="px-4 py-1 hover:bg-gray-800">
+                      <Link
+                        to="Air Blower & Pressure Washer"
+                        smooth={true}
+                        duration={500}
+                        offset={-120}
+                        as="a"
+                        href="/#Air Blower & Pressure Washer"
+                        onClick={() => setShowDropdown(false)}
+                      >
+                        Air Blower & Pressure Washer
+                      </Link>
+                    </li>
+                    <li className="px-4 py-1 hover:bg-gray-800">
+                      <Link
+                        to="Spares for Compressors"
+                        smooth={true}
+                        duration={500}
+                        offset={-120}
+                        as="a"
+                        href="/#Spares for Compressors"
+                        onClick={() => setShowDropdown(false)}
+                      >
+                        Spares for Compressors
                       </Link>
                     </li>
                   </ul>
@@ -204,61 +209,57 @@ const NavBar = () => {
             >
               Products
               {showDropdown && (
-                <ul className="flex flex-col bg-black text-white mt-2 rounded">
+                <ul className="flex flex-col bg-black text-white mt-2 rounded justify-end items-end right-0">
                   <li className="px-4 py-1 hover:bg-gray-800">
                       <Link
-                        to="Products"
-                        smooth={true}
-                        duration={500}
-                        offset={-0}
-                        as="a"
-                        href="/#Powerful Airflow & Pressure Washer"
-                        // onClick={() => setShowDropdown(false)}
-                        onClick={() => setmenu(!menu)}
-                      >
-                        Powerful Airflow & Pressure Washer
-                      </Link>
-                    </li>
-                    <li className="px-4 py-1 hover:bg-gray-800">
-                      <Link
-                        to="Belt Type Air Compressors"
-                        smooth={true}
-                        duration={500}
-                        offset={-100}
-                        as="a"
-                        href="/#Belt Type Air Compressors"
-                        // onClick={() => setShowDropdown(false)}
-                        onClick={() => setmenu(!menu)}
-                      >
-                        Belt Type Air Compressors
-                      </Link>
-                    </li>
-                    <li className="px-4 py-1 hover:bg-gray-800">
-                      <Link
-                        to="Oil-Free Air Compressors"
+                        to="Belt Driven"
                         smooth={true}
                         duration={500}
                         offset={-120}
                         as="a"
-                        href="/#Oil-Free Air Compressors"
-                        // onClick={() => setShowDropdown(false)}
-                        onClick={() => setmenu(!menu)}
+                        href="/#Belt Driven"
+                        onClick={() => setShowDropdown(false)}
                       >
-                        Oil-Free Air Compressors
+                        Belt Driven
                       </Link>
                     </li>
                     <li className="px-4 py-1 hover:bg-gray-800">
                       <Link
-                        to="Spare Parts of Air Compressors"
+                        to="Oil Free"
                         smooth={true}
                         duration={500}
-                        offset={-100}
+                        offset={-120}
                         as="a"
-                        href="/#Spare Parts of Air Compressors"
-                        // onClick={() => setShowDropdown(false)}
-                        onClick={() => setmenu(!menu)}
+                        href="/#Oil Free"
+                        onClick={() => setShowDropdown(false)}
                       >
-                        Spare Parts of Air Compressors
+                        Oil Free
+                      </Link>
+                    </li>
+                    <li className="px-4 py-1 hover:bg-gray-800">
+                      <Link
+                        to="Air Blower & Pressure Washer"
+                        smooth={true}
+                        duration={500}
+                        offset={-120}
+                        as="a"
+                        href="/#Air Blower & Pressure Washer"
+                        onClick={() => setShowDropdown(false)}
+                      >
+                        Air Blower & Pressure Washer
+                      </Link>
+                    </li>
+                    <li className="px-4 py-1 hover:bg-gray-800">
+                      <Link
+                        to="Spares for Compressors"
+                        smooth={true}
+                        duration={500}
+                        offset={-120}
+                        as="a"
+                        href="/#Spares for Compressors"
+                        onClick={() => setShowDropdown(false)}
+                      >
+                        Spares for Compressors
                       </Link>
                     </li>
                 </ul>
