@@ -6,6 +6,7 @@ import Product from '../src/components/Product'
 import Contact from '../src/components/Contact'
 import Footer from '../src/components/Footer'
 import WhatsApp from '../src/components/WhatsApp'
+import CallIcon from './components/CallIcon'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Contact/>
     <Footer/>
     <WhatsApp/>
+    <CallIcon/>
     </div>
     </>
   )
