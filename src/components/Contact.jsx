@@ -37,54 +37,54 @@ const Contact = () => {
     <div name="Contact Us" className="mt-5 mb-5 px-8 md:px-28 py-10">
       <section className="py-12 md:py-0 px-6 md:px-12 lg:px-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Contact Us</h2>
+          <h2 className="text-3xl font-bold">Contact Us</h2>
           <div className="w-full md:w-full flex flex-col md:justify-center items-center px-8 py-5">
-            <h3 className="mb-3 text-base opacity-70 text-start md:text-center">
+            {/* <h3 className="mb-3 text-base opacity-70 text-start md:text-center">
               Send Your Message
-            </h3>
+            </h3> */}
             <form onSubmit={onSubmit}>
               <div className="input-box text-start flex flex-col">
                 <label
-                  className="px-0 font-bold text-[#F38522] text-2xl mt-0 w-50"
+                  className="px-0 font-bold text-[#F38522] text-xl mt-0 w-50"
                   htmlFor="name"
                 >
                   Name :-
                 </label>
                 <input
-                  className="boreder-none outline-none bg-gray-800 text-white font-bold w-80 md:w-110 px-5 py-3 mb-2 ml-2 mr-4 rounded-sm"
+                  className="boreder-none outline-none bg-gray-800 text-white font-bold w-80 md:w-110 px-5 py-3 mb-3 ml-2 mr-4 rounded-sm"
                   type="text"
                   placeholder="Enter Your Full Name" name="name" required
                 />
               </div>
               <div className="input-box text-start flex flex-col">
                 <label
-                  className="px-0 font-bold text-[#F38522] text-2xl mt-0 w-50"
+                  className="px-0 font-bold text-[#F38522] text-xl mt-0 w-50"
                   htmlFor="name"
                 >
                   Email id :-
                 </label>
                 <input
-                  className="boreder-none outline-none bg-gray-800 text-white font-bold w-80 md:w-110 px-5 py-3 mb-2 ml-2 mr-4 rounded-sm"
+                  className="boreder-none outline-none bg-gray-800 text-white font-bold w-80 md:w-110 px-5 py-3 mb-3 ml-2 mr-4 rounded-sm"
                   type="email"
                   placeholder="Enter Your Email Id" name="email" required
                 />
               </div>
               <div className="input-box text-start flex flex-col">
                 <label
-                  className="px-0 font-bold text-[#F38522] text-2xl mt-0 w-50"
+                  className="px-0 font-bold text-[#F38522] text-xl mt-0 w-50"
                   htmlFor="name"
                 >
                   Phone no :-
                 </label>
                 <input
-                  className="boreder-none outline-none bg-gray-800 text-white font-bold w-80 md:w-110 px-5 py-3 mb-2 ml-2 mr-4 rounded-sm"
+                  className="boreder-none outline-none bg-gray-800 text-white font-bold w-80 md:w-110 px-5 py-3 mb-3 ml-2 mr-4 rounded-sm"
                   type="phone"
                   placeholder="Enter Your Phone no." name="phone" required
                 />
               </div>
               <div className="input-box text-start flex flex-col">
                 <label
-                  className="px-0 font-bold text-[#F38522] text-2xl mt-0 w-50"
+                  className="px-0 font-bold text-[#F38522] text-xl mt-0 w-50"
                   htmlFor="name"
                 >
                   Message :-
