@@ -9,25 +9,42 @@ export default function Footer() {
     <>
       <div name="Footer">
         <footer className="bg-gray-950 text-white py-10 md:px-25 px-10">
-          <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 md:gap-10 gap-5">
-            <div className="w-50 space-y-3">
-              <h2 className="text-sm font-semibold text-[#F38522] mb-3">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 md:gap-10 gap-5">
+            <div className="w-70 xl:w-60 space-y-3">
+              <h2 className="text-sm md:text-[20px] font-semibold text-[#F38522] mb-3">
                 Contact Us
               </h2>
-              <p>
-                📍 M F ENTERPRISES 162/3 INDIAN CORPORATION, MANKOLI ,BHIWANDI
-                421302
+              <p className="text-sm md:text-[16px]">
+                📍 M F ENTERPRISES 162/3 INDIAN CORPORATION, MANKOLI, BHIWANDI 421302
               </p>
-              <p>📞 +91 9004583244</p>
-              <p>✉️ mfent53@gmail.com</p>
-              <p>📑 27ABKFM9528L1ZI</p>
+              <p className="text-sm  md:text-[16px]">
+                📍 61/63 , KERAWALA BUILDING, 1ST FLOOR, OFFICE NO.2, MANGLADAS ROAD, LOHAR CHAWL, MUMBAI-400002.
+              </p>
+              <p className="text-sm md:text-[16px]">✉️ mfent53@gmail.com</p>
+              <p className="text-sm md:text-[16px]">📞 +91 9004583244</p>
+              <p className="text-sm md:text-[16px]">📑 27ABKFM9528L1ZI</p>
             </div>
 
-            <div className="w-50">
-              <h2 className="text-sm font-semibold text-[#F38522] mb-3">
+            <div className="w-70 xl:w-60 space-y-3">
+              <h2 className="text-sm  md:text-[20px] font-semibold mb-3 bg-gradient-to-r from-orange-400 to-yellow-600 bg-clip-text text-transparent">
+                Our Network
+              </h2>
+              <ul className="text-sm md:text-[16px] space-y-1">
+                <li>📍 Mumbai, Vasai, Ulhasnagar</li>
+                <li>📍 Pune, Ahmednagar, Nasik</li>
+                <li>📍 Baramati, Satara (Maharashtra)</li>
+                <li>📍 Panjim (Goa)</li>
+                <li>📍 Raipur, Raigarh (Chhattisgarh)</li>
+                <li>📍 Secunderabad (AP)</li>
+                <li>📍 Chennai (TN)</li>
+              </ul>
+            </div>
+
+            <div className="w-30">
+              <h2 className="text-sm  md:text-[20px] font-semibold text-[#F38522] mb-3">
                 Quick Links
               </h2>
-              <ul className="space-y-3">
+              <ul className="text-sm md:text-[16px] space-y-3">
                 <li className="hover:cursor-pointer">
                   <Link
                     to="Hero"
@@ -96,23 +113,10 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div>
-              <h2 className="text-sm font-semibold mb-3 bg-gradient-to-r from-orange-400 to-yellow-600 bg-clip-text text-transparent">
-                Our Network
-              </h2>
-              <ul className="space-y-1">
-                <li>📍 Mumbai, Vasai, Ulhasnagar</li>
-                <li>📍 Pune, Ahmednagar, Nasik</li>
-                <li>📍 Baramati, Satara (Maharashtra)</li>
-                <li>📍 Panjim (Goa)</li>
-                <li>📍 Raipur, Raigarh (Chhattisgarh)</li>
-                <li>📍 Secunderabad (AP)</li>
-                <li>📍 Chennai (TN)</li>
-              </ul>
-            </div>
+            
 
             <div className="w-60">
-              <h2 className="text-sm font-semibold text-[#F38522] mb-3">
+              <h2 className="text-sm  md:text-[20px] font-semibold text-[#F38522] mb-3">
                 Find Us
               </h2>
               <iframe
@@ -126,7 +130,7 @@ export default function Footer() {
             </div>
 
             <div className="w-50">
-              <h2 className="text-sm font-semibold text-[#F38522] mb-3">
+              <h2 className="text-sm  md:text-[20px] font-semibold text-[#F38522] mb-3">
                 Follow Us
               </h2>
               <div className="flex space-x-5">
