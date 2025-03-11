@@ -21,43 +21,11 @@ const Product = () => {
           Our Products
         </h2>
 
-        <h3 className="text-xl md:text-2xl font-semibold mb-4" name="Powerful Airflow & Pressure Washer">
-          Powerful Airflow & Pressure Washer
-        </h3>
-        <div className="mb-15 md:mt-15" >
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
-              <img
-                src={pic1}
-                alt="Air Compressors"
-                className="w-full object-cover "
-              />
-              <h4 className="mt-2 text-xl text-black font-bold">BLOWER</h4>
-              {/* <p className="text-gray-950">
-                High-quality replacement part ensuring efficiency.
-              </p> */}
-            </div>
-            <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
-              <img
-                src={pic11}
-                alt="Air Compressors"
-                className="w-full object-cover "
-              />
-              <h4 className="mt-2 text-xl text-black font-bold">
-                PRESSURE WASHER
-              </h4>
-              {/* <p className="text-gray-950">
-                Durable and compatible with multiple models.
-              </p> */}
-            </div>
-          </div>
-        </div>
-
         <h3
-          className="text-xl md:text-2xl font-semibold mb-4"
-          name="Belt Type Air Compressors"
+          className="text-xl md:text-3xl font-semibold mb-4"
+          name="Belt Driven"
         >
-          Belt Type Air Compressors
+          Belt Driven
         </h3>
         <div className="mb-12 md:mt-15">
           <div className="grid md:grid-cols-2 gap-6">
@@ -86,9 +54,10 @@ const Product = () => {
             </div>
           </div>
         </div>
+       
 
-        <h3 className="text-xl md:text-2xl font-semibold mb-4" name="Oil-Free Air Compressors">
-          Oil-Free Air Compressors
+        <h3 className="text-xl md:text-3xl font-semibold mb-4" name="Oil Free">
+        Oil Free
         </h3>
         <div className="mb-12 md:mt-15" >
           <div className="grid md:grid-cols-2 gap-6">
@@ -161,8 +130,40 @@ const Product = () => {
           </div>
         </div>
 
-        <h3 className="text-xl md:text-2xl font-semibold mb-4" name="Spare Parts of Air Compressors">
-          Spare Parts of Air Compressors
+        <h3 className="text-xl md:text-3xl font-semibold mb-4" name="Air Blower & Pressure Washer">
+        Air Blower & Pressure Washer
+        </h3>
+        <div className="mb-15 md:mt-15" >
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
+              <img
+                src={pic1}
+                alt="Air Compressors"
+                className="w-full object-cover "
+              />
+              <h4 className="mt-2 text-xl text-black font-bold">BLOWER</h4>
+              {/* <p className="text-gray-950">
+                High-quality replacement part ensuring efficiency.
+              </p> */}
+            </div>
+            <div className="bg-white p-2 md:p-4 shadow-md rounded-lg hover:bg-[#F38522] hover:text-black">
+              <img
+                src={pic11}
+                alt="Air Compressors"
+                className="w-full object-cover "
+              />
+              <h4 className="mt-2 text-xl text-black font-bold">
+                PRESSURE WASHER
+              </h4>
+              {/* <p className="text-gray-950">
+                Durable and compatible with multiple models.
+              </p> */}
+            </div>
+          </div>
+        </div>
+
+        <h3 className="text-xl md:text-3xl font-semibold mb-4" name="Spares for Compressors">
+        Spares for Compressors
         </h3>
         <div className="mb-12 md:mt-15" >
           <div className="grid grid-cols-2 md:grid-cols-7 gap-4">
