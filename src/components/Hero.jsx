@@ -21,20 +21,20 @@ const Hero = () => {
   return (
     <div
       name="Hero"
-      className="mt-17 md:mt-17 md:flex md:flex-row flex flex-col-reverse h-[90vh] items-center md:ml-18 md:mr-18 bg-black"
+      className="mt-17 md:mt-17 md:flex md:flex-row flex flex-col-reverse h-[90vh] items-center md:ml-10 md:mr-10 bg-black"
     >
-      <div className="left md:w-1/2 md:mr-20 md:ml-20 mt-5 mb-2 px-10 w-full h-full flex flex-col items-center md:items-start justify-center text-center md:text-left p-5 md:p-10">
-        <h1 className="text-2xl md:text-5xl font-bold text-white">
+      <div className="left md:w-1/2 md:mr-15 md:ml-15 mt-5 mb-2 px-10 xl:px-18 w-full h-full flex flex-col items-center md:items-start justify-center text-center md:text-left p-5 md:p-10">
+        <h1 className="text-2xl md:text-3xl xl:text-5xl font-bold text-white">
           Powerful & Reliable
         </h1>
-        <h2 className="text-xl md:text-4xl font-semibold text-white mt-2">
+        <h2 className="text-xl md:text-3xl xl:text-5xl font-semibold text-white mt-2">
           Air Compressors
         </h2>
-        <p className="text-sm md:text-2xl text-white mt-2">
+        <p className="text-sm md:text-xl xl:text-2xl text-white mt-2">
           For Every Industry
         </p>
-        <p className="text-sm md:text-xl text-white mt-4">
-          <strong>Powerful performance, low maintenance, and energy-saving solutions</strong> 
+        <p className="text-sm md:text-[16px] xl:text-[20px] text-white mt-4">
+          <strong>Powerful performance, low maintenance, and energy-saving solutions </strong> 
           to keep your operations running smoothly.
         </p>
         {/* <a
