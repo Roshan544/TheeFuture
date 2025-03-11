@@ -30,13 +30,17 @@ export default function Footer() {
                 Our Network
               </h2>
               <ul className="text-sm md:text-[16px] space-y-1">
-                <li>📍 Mumbai, Vasai, Ulhasnagar</li>
-                <li>📍 Pune, Ahmednagar, Nasik</li>
-                <li>📍 Baramati, Satara (Maharashtra)</li>
-                <li>📍 Panjim (Goa)</li>
-                <li>📍 Raipur, Raigarh (Chhattisgarh)</li>
-                <li>📍 Secunderabad (AP)</li>
-                <li>📍 Chennai (TN)</li>
+                <li>📍 MAHARASHTRA </li>
+                <li>📍 GOA</li>
+                <li>📍 MADHYAPRADESH</li>
+                <li>📍 CHATTISGARH</li>
+                <li>📍 ODISSA</li>
+                <li>📍 GUJRAT</li>
+                <li>📍 ANDHRA PRADESH</li>
+                <li>📍 KARNATAKA</li>
+                <li>📍 KERALA</li>
+                <li>📍 TAMILNADU</li>
+                <li>📍 WEST BENGAL</li>
               </ul>
             </div>
 
@@ -197,11 +201,11 @@ export default function Footer() {
 
           <div className="justify-center items-center flex flex-col opacity-100">
             <h2 className="text-[50px] md:text-[150px] xl:text-[187px] italic text-[#F38522]">
-              The Future
+              The eFuture
             </h2>
           </div>
           <div className="text-center text-gray-500">
-            &copy; {new Date().getFullYear()} The Future. All Rights Reserved.
+            &copy; {new Date().getFullYear()} The eFuture. All Rights Reserved.
           </div>
         </footer>
       </div>
