@@ -173,8 +173,8 @@ const NavBar = () => {
       </div>
 
       {!menu && (
-        <div className="ul md:hidden flex bg-black text-white py-[10%] h-full mt-5 fixed top-7 right-0 z-10 w-80">
-          <ul className="flex flex-col gap-4 items-end right-0 px-8 w-full">
+        <div className="ul md:hidden flex bg-black text-white py-[10%] h-full mt-8 fixed top-7 left-0 z-10 w-full">
+          <ul className="flex flex-col gap-4 left-0 px-8 w-full">
             <li className="hover:cursor-pointer hover:scale-105 hover:text-[#F38522] text-lg">
               <Link
                 to="Hero"
@@ -209,7 +209,7 @@ const NavBar = () => {
             >
               Products
               {showDropdown && (
-                <ul className="flex flex-col bg-black text-white mt-2 rounded justify-end items-end right-0">
+                <ul className="flex flex-col bg-black text-white mt-2 rounded justify-end">
                   <li className="px-4 py-1 hover:bg-gray-800">
                       <Link
                         to="Belt Driven"
