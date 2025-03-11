@@ -9,9 +9,9 @@ export default function Footer() {
     <>
       <div name="Footer">
         <footer className="bg-gray-950 text-white py-10 md:px-25 px-10">
-          <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 md:gap-10 gap-5">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 md:gap-10 gap-5">
             <div className="w-50 space-y-3">
-              <h2 className="text-xl font-semibold text-[#F38522] mb-3">
+              <h2 className="text-sm font-semibold text-[#F38522] mb-3">
                 Contact Us
               </h2>
               <p>
@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
 
             <div className="w-50">
-              <h2 className="text-xl font-semibold text-[#F38522] mb-3">
+              <h2 className="text-sm font-semibold text-[#F38522] mb-3">
                 Quick Links
               </h2>
               <ul className="space-y-3">
@@ -97,22 +97,22 @@ export default function Footer() {
             </div>
 
             <div>
-          <h2 className="text-xl font-semibold mb-3 bg-gradient-to-r from-orange-400 to-yellow-600 bg-clip-text text-transparent">
-            Our Network
-          </h2>
-          <ul className="space-y-1">
-            <li>📍 Mumbai, Vasai, Ulhasnagar</li>
-            <li>📍 Pune, Ahmednagar, Nasik</li>
-            <li>📍 Baramati, Satara (Maharashtra)</li>
-            <li>📍 Panjim (Goa)</li>
-            <li>📍 Raipur, Raigarh (Chhattisgarh)</li>
-            <li>📍 Secunderabad (AP)</li>
-            <li>📍 Chennai (TN)</li>
-          </ul>
-        </div>
+              <h2 className="text-sm font-semibold mb-3 bg-gradient-to-r from-orange-400 to-yellow-600 bg-clip-text text-transparent">
+                Our Network
+              </h2>
+              <ul className="space-y-1">
+                <li>📍 Mumbai, Vasai, Ulhasnagar</li>
+                <li>📍 Pune, Ahmednagar, Nasik</li>
+                <li>📍 Baramati, Satara (Maharashtra)</li>
+                <li>📍 Panjim (Goa)</li>
+                <li>📍 Raipur, Raigarh (Chhattisgarh)</li>
+                <li>📍 Secunderabad (AP)</li>
+                <li>📍 Chennai (TN)</li>
+              </ul>
+            </div>
 
             <div className="w-60">
-              <h2 className="text-xl font-semibold text-[#F38522] mb-3">
+              <h2 className="text-sm font-semibold text-[#F38522] mb-3">
                 Find Us
               </h2>
               <iframe
@@ -126,7 +126,7 @@ export default function Footer() {
             </div>
 
             <div className="w-50">
-              <h2 className="text-xl font-semibold text-[#F38522] mb-3">
+              <h2 className="text-sm font-semibold text-[#F38522] mb-3">
                 Follow Us
               </h2>
               <div className="flex space-x-5">
@@ -147,52 +147,52 @@ export default function Footer() {
                   <FaLinkedin />
                 </a> */}
 
-<a
-      href="https://www.instagram.com/mf_enterprises6?igsh=MXA0d3VmNDlzajIxaw=="
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-3xl"
-      title="Follow us on Instagram"
-      aria-label="Instagram"
-    >
-      <FaInstagramSquare />
-    </a>
-    <a
-      href="https://www.facebook.com/people/Mfenterprises6/61573739322121/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-3xl"
-      title="Follow us on Facebook"
-      aria-label="Facebook"
-    >
-      <FaFacebook />
-    </a>
-    <a
-      href="#"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-3xl"
-      title="Visit our GitHub"
-      aria-label="GitHub"
-    >
-      <FaGithub />
-    </a>
-    <a
-      href="#"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-3xl"
-      title="Connect with us on LinkedIn"
-      aria-label="LinkedIn"
-    >
-      <FaLinkedin />
-    </a>
+                <a
+                  href="https://www.instagram.com/mf_enterprises6?igsh=MXA0d3VmNDlzajIxaw=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-3xl"
+                  title="Follow us on Instagram"
+                  aria-label="Instagram"
+                >
+                  <FaInstagramSquare />
+                </a>
+                <a
+                  href="https://www.facebook.com/people/Mfenterprises6/61573739322121/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-3xl"
+                  title="Follow us on Facebook"
+                  aria-label="Facebook"
+                >
+                  <FaFacebook />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-3xl"
+                  title="Visit our GitHub"
+                  aria-label="GitHub"
+                >
+                  <FaGithub />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-3xl"
+                  title="Connect with us on LinkedIn"
+                  aria-label="LinkedIn"
+                >
+                  <FaLinkedin />
+                </a>
               </div>
             </div>
           </div>
 
           <div className="justify-center items-center flex flex-col opacity-100">
-            <h2 className="text-[50px] md:text-[187px] italic text-[#F38522]">
+            <h2 className="text-[50px] md:text-[150px] xl:text-[187px] italic text-[#F38522]">
               The Future
             </h2>
           </div>
