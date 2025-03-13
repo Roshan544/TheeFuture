@@ -80,19 +80,19 @@ const Hero = () => {
             <img className="rounded-xl md:w-[35vw] w-full bg-white p-2" rel="preload" loading="lazy" src={pic5} alt="Hero 3" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="rounded-xl md:w-[35vw] w-[70vw] bg-white p-2" rel="preload" loading="lazy" src={pic6} alt="Hero 3" />
+            <img className="rounded-xl md:w-[35vw] w-full bg-white p-2" rel="preload" loading="lazy" src={pic6} alt="Hero 3" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="rounded-xl md:w-[35vw] w-[70vw] bg-white p-2" rel="preload" loading="lazy" src={pic7} alt="Hero 3" />
+            <img className="rounded-xl md:w-[35vw] w-full bg-white p-2" rel="preload" loading="lazy" src={pic7} alt="Hero 3" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="rounded-xl md:w-[35vw] w-[70vw] bg-white p-2" rel="preload" loading="lazy" src={pic8} alt="Hero 3" />
+            <img className="rounded-xl md:w-[35vw] w-full bg-white p-2" rel="preload" loading="lazy" src={pic8} alt="Hero 3" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="rounded-xl md:w-[35vw] w-[70vw] bg-white p-2" rel="preload" loading="lazy" src={pic9} alt="Hero 3" />
+            <img className="rounded-xl md:w-[35vw] w-full bg-white p-2" rel="preload" loading="lazy" src={pic9} alt="Hero 3" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="rounded-xl md:w-[35vw] w-[70vw] bg-white p-2" rel="preload" loading="lazy" src={pic10} alt="Hero 3" />
+            <img className="rounded-xl md:w-[35vw] w-full bg-white p-2" rel="preload" loading="lazy" src={pic10} alt="Hero 3" />
           </SwiperSlide>
         </Swiper>
       </div>
