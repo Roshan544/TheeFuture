@@ -133,15 +133,28 @@ const NavBar = () => {
                     </li>
                     <li className="px-4 py-1 hover:bg-gray-800">
                       <Link
-                        to="Spares for Compressors"
+                        to="Oil Free Spares"
                         smooth={true}
                         duration={500}
                         offset={-120}
                         as="a"
-                        href="/#Spares for Compressors"
+                        href="/#Oil Free Spares"
                         onClick={() => setShowDropdown(false)}
                       >
-                        Spares for Compressors
+                        Oil Free Spares
+                      </Link>
+                    </li>
+                    <li className="px-4 py-1 hover:bg-gray-800">
+                      <Link
+                        to="Belt Type Spares"
+                        smooth={true}
+                        duration={500}
+                        offset={-120}
+                        as="a"
+                        href="/#Belt Type Spares"
+                        onClick={() => setShowDropdown(false)}
+                      >
+                        Belt Type Spares
                       </Link>
                     </li>
                   </ul>
@@ -253,15 +266,28 @@ const NavBar = () => {
                     </li>
                     <li className="px-4 py-1 hover:bg-gray-800">
                       <Link
-                        to="Spares for Compressors"
+                        to="Oil Free Spares"
                         smooth={true}
                         duration={500}
                         offset={-120}
                         as="a"
-                        href="/#Spares for Compressors"
+                        href="/#Oil Free Spares"
                         onClick={() => {setmenu(!menu); setShowDropdown(!showDropdown)}}
                       >
-                        Spares for Compressors
+                        Oil Free Spares
+                      </Link>
+                    </li>
+                    <li className="px-4 py-1 hover:bg-gray-800">
+                      <Link
+                        to="Belt Type Spares"
+                        smooth={true}
+                        duration={500}
+                        offset={-120}
+                        as="a"
+                        href="/#Belt Type Spares"
+                        onClick={() => {setmenu(!menu); setShowDropdown(!showDropdown)}}
+                      >
+                        Belt Type Spares
                       </Link>
                     </li>
                 </ul>
